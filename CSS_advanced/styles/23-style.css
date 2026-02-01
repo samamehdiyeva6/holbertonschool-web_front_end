@@ -398,25 +398,6 @@
     color: var(--color-primary);
   }
   
-  /* card-title inside card-services */
-  .card-services .card-title {
-    margin: 0;
-  }
-  
-  /* a inside card-services */
-  .card-services a {
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
-    text-decoration: none;
-  }
-  
-  /* hover state for a inside card-services */
-  .card-services a:hover {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-decoration: none;
-  }
   .navbar-menu {
     float: right;
   }
@@ -515,7 +496,7 @@
   }
   
   /* Social link SVG children */
-  .social-link svg {
+  .social-link > svg {
     fill: var(--text-color);
   }
   h1 h2 h3 h4 h5 h6 {
