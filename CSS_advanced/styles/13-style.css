@@ -9,17 +9,17 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-a {
+a[href] {
     text-decoration: none;
     color: var(--text-color);
 }
-a:visited {
+a[href]:visited {
     font-size: italic;
 }
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
-a:active {
+a[href]:active {
     background-color: var(--color-light-grey);
 }
 h1, h2, h3, h4, h5, h6 {
