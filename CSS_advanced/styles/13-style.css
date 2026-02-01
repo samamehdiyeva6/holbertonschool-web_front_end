@@ -9,7 +9,7 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-a[href] {
+a[href]:link {
     text-decoration: none;
     color: var(--text-color);
 }
