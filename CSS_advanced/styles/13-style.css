@@ -14,7 +14,7 @@ a[href]:link {
     color: var(--text-color);
 }
 a[href]:visited {
-    font-size: italic;
+    font-style: italic;
 }
 a[href]:hover {
     text-decoration: underline;
